@@ -1,0 +1,185 @@
+
+.navbar-nav li{
+	padding-left: 2rem;
+}
+.nav-link.active{
+	color: green!important;
+}
+
+/*homeimages*/
+.home1{
+	background-image: url("homeimages/1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height:550px;
+}
+.home2{
+	background-image: url("homeimages/2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height:550px;
+}
+.home3{
+	background-image: url("homeimages/3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height:550px;
+}
+.home{
+	padding-right:4rem; 
+	padding-left: 1.5rem;
+	padding-top:17rem;
+	color: white;
+}
+.home .btn{
+	background-color:#FF7F50;
+}
+.homeimages .col-4{
+	padding-right:0px;
+	padding-left: 0px;
+}
+.rights p{
+	padding-left: 82rem;
+}
+
+/*Big Container*/
+/*Left side*/
+.Latest{
+	margin-bottom: 2rem;
+	margin-top: 3rem;
+}
+.Latest .buttons{
+	padding-left: 39rem;
+	margin-top: -2rem;
+}
+.eightcolumns img{
+    height: 110px!important;
+}
+.lifestyle{
+	background-color:rgb(73,197,196);
+}
+.eightcolumns .row{
+	padding-bottom:15px; 
+}
+
+/*travelblog*/
+.travelblog{
+	background-image: url("nature.jpg");
+    height: 200px;
+}
+.travelblog p{
+	padding-top: 61px;
+}
+
+/*Daily News*/
+.dailynews{
+	background-image: url("homeimages/3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height:625px;
+	text-align: center;
+}
+.dailynews button{
+	margin-top: 102px;
+	background-color:#FF7F50;	
+}
+.dailynews h3{
+	margin-top: 30px;
+}
+
+
+/*Mostpopular*/
+.mostpopular{
+	background-image: url("homeimages/2.jpg");
+	width: 100%;
+	height: 667px;
+}
+.mostpopular button{
+	margin-top: 470px;
+    background-color:#FF7F50;	
+}
+.mostpopular1{
+	background-image: url("homeimages/1.jpg");
+    width: 100%;
+	height: 250px;
+}
+.mostpopular2{
+	background-image: url("homeimages/3.jpg");
+    width: 100%;
+	height: 332px;
+	margin-bottom:1rem;
+}
+.mostpopular3{
+	background-image: url("homeimages/2.jpg");
+    width: 100%;
+	height: 319px;
+	margin-top: 0rem;
+}
+
+
+
+
+
+
+/*footer*/
+footer .email{
+	border: none;
+}
+footer{
+	background-color: #F5F5F5
+}
+
+
+
+/*Responsive*/
+/*1. homeimages*/
+ @media (max-width:800px){
+.homeimages .col-4{
+    max-width:50%;
+    flex: 100%;
+}
+}
+ @media (max-width:600px){
+.homeimages .col-4{
+    max-width:100%;
+    flex: 100%;
+}
+}
+
+
+
+
+/*footer*/
+ @media (max-width:768px){
+footer .col-3{
+    max-width:50%;
+    flex:100%;
+    padding: -3rem;
+}
+footer .row{
+    margin: auto;
+    max-width: 100%;
+}
+
+}
+
+ @media (max-width:584px){
+footer .col-3{
+    max-width:100%;
+    flex: 100%;
+    text-align: center;
+}
+}
+
+
+
+
+
+
